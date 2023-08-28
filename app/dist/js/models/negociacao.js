@@ -31,3 +31,4 @@ export class Negociacao {
         return this.quantidade * this.valor;
     }
 }
+//# sourceMappingURL=negociacao.js.map

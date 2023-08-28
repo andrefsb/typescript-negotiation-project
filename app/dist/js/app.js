@@ -19,3 +19,4 @@ if (botaoImporta) {
 else {
     throw Error("Button 'import' not found.");
 }
+//# sourceMappingURL=app.js.map
