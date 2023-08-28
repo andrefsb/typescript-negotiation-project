@@ -1,14 +1,13 @@
 import { Imprimivel } from "../utils/imprimivel.js";
 
-export class Negociacao extends Imprimivel { 
+export class Negociacao implements Imprimivel { 
 
     constructor (
         private _data: Date,
         public readonly quantidade: number,
         public readonly valor: number
-    ) {
-        super();
-    }
+    ) {}
+
 
     get data(): Date {
         const data = new Date(this._data.getTime());
