@@ -11,3 +11,12 @@ if (form) {
     throw Error("Not possible to start application.Please verify if 'form' exists.")
 }
 
+const botaoImporta = document.querySelector('#botao-importa');
+if(botaoImporta){
+    botaoImporta.addEventListener('click', ()=>{
+        controller.importaDados();
+    });
+}else{
+    throw Error("Button 'import' not found.");
+}
+
